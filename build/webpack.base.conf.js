@@ -1,6 +1,7 @@
-var path = require('path')
-var utils = require('./utils')
-var config = require('../config')
+var path            = require('path')
+var utils           = require('./utils')
+var config          = require('../config')
+var webpack         = require('webpack')
 var vueLoaderConfig = require('./vue-loader.conf')
 
 function resolve (dir) {
@@ -28,6 +29,15 @@ module.exports = {
       'components' : __dirname + '/src/components'
     }
   },
+  plugins: [
+    // 3. 配置全局使用 jquery
+    new webpack.ProvidePlugin({
+      $     : "jquery",
+      jQuery: "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery"
+    })
+  ],
   module: {
     rules: [
       {
@@ -39,6 +49,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
+      },
+      {
+        test: /\.less$/,
+        loader: 'style-loader!css-loader!less-loader'
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import './assets/css/reset.css'
-import './assets/css/font-awesome.css'
-import $ from './assets/js/jquery-1.8.3.js'
+import './assets/css/font-awesome.css' 
+
+
+// swiper引入出现问题
+// import './assets/swiper/swiper.css' 
+// import swiperJs from './assets/swiper/swiper.js'
 
 Vue.config.productionTip = false
 
