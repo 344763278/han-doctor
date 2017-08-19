@@ -3,12 +3,12 @@
     <div class="nav w">
       <div class="log"><a href="#"></a></div>
       <ul class="nav-items">
-        <li class="list"><a href="#">首页</a></li class="list">
+        <li class="list"><a href="#">首页<i class="fa fa-home"></i></a></li class="list">
         <li class="list"><a href="#">U盘启动</a></li class="list">
         <li class="list"><a href="#">在线安装</a></li class="list">
         <li class="list"><a href="#">一键备份</a></li class="list">
         <li class="list"><a href="#">系统下载</a></li class="list">
-        <li class="list"><a href="#">疑难解答</a></li class="list">
+        <li class="list"><a href="#">疑难解答</i></a></li class="list">
       </ul>
     </div>
   </div> 

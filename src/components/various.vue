@@ -77,7 +77,7 @@ export default {
   }
   .imgs-1{
     width: 134px;
-    height: 80px; 
+    height: 79px; 
     background: url(../../static/various/5-1.png) 0 -94px no-repeat;
     transition: all 1s;
   }

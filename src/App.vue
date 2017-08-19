@@ -8,7 +8,7 @@
     <functions></functions>
     <various></various>
     <download></download> 
-    <Vfooter></Vfooter>
+    <Vfooter></Vfooter> 
   </div>
 </template>
 
@@ -41,6 +41,5 @@ export default {
 }
 </script>
 
-<style> 
-@import './assets/reset.css'
+<style>
 </style>

@@ -2,7 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import $ from './assets/jquery-1.8.3.js'
+import './assets/css/reset.css'
+import './assets/css/font-awesome.css'
+import $ from './assets/js/jquery-1.8.3.js'
 
 Vue.config.productionTip = false
 
