@@ -7,8 +7,7 @@
     <chooseUs></chooseUs>
     <functions></functions>
     <various></various>
-
-
+    <download></download> 
     <Vfooter></Vfooter>
   </div>
 </template>
@@ -21,8 +20,7 @@ import product   from './components/product'
 import chooseUs  from './components/chooseUs'
 import functions from './components/function'
 import various   from './components/various'
-
-
+import download  from './components/download' 
 import Vfooter   from './components/footer'
 
 
@@ -37,7 +35,8 @@ export default {
     chooseUs,
     Vfooter,
     functions,
-    various
+    various,
+    download
   }
 }
 </script>
