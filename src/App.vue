@@ -5,6 +5,8 @@
     <micro></micro>
     <product></product>
     <chooseUs></chooseUs>
+    <functions></functions>
+    <various></various>
 
 
     <Vfooter></Vfooter>
@@ -17,6 +19,8 @@ import banner    from './components/banner'
 import micro     from './components/mocroInfo'
 import product   from './components/product'
 import chooseUs  from './components/chooseUs'
+import functions from './components/function'
+import various   from './components/various'
 
 
 import Vfooter   from './components/footer'
@@ -31,7 +35,9 @@ export default {
     micro,
     product,
     chooseUs,
-    Vfooter
+    Vfooter,
+    functions,
+    various
   }
 }
 </script>

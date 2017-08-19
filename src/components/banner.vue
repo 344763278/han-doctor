@@ -7,7 +7,7 @@
           <div class="down-img">
             <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><a href="#"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></a></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
@@ -19,7 +19,7 @@
           <div class="down-img">
             <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><a href="#"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></a></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
@@ -31,7 +31,7 @@
           <div class="down-img">
             <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><a href="#"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></a></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
@@ -97,7 +97,7 @@ export default {
   }
   .li .download .down-img{
     margin-top: 120px;
-  }
+  } 
   .xunlei{ 
     margin-left: 45px;
 
