@@ -5,37 +5,37 @@
       <li class="li">
         <div class="download">
           <div class="down-img">
-            <img src="../../static/banner/new-title2.png" height="210" width="464" alt="tit">
+            <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="../../static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
-          <img src="../../static/banner/ban_01.png" height="450" width="726" alt="banner">
+          <img src="static/banner/ban_01.png" height="450" width="726" alt="banner">
         </div>
       </li>
       <li class="li">
         <div class="download">
           <div class="down-img">
-            <img src="../../static/banner/new-title2.png" height="210" width="464" alt="tit">
+            <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="../../static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
-          <img src="../../static/banner/ban_02.png" height="450" width="726" alt="banner">
+          <img src="static/banner/ban_02.png" height="450" width="726" alt="banner">
         </div>
       </li>
       <li class="li">
         <div class="download">
           <div class="down-img">
-            <img src="../../static/banner/new-title2.png" height="210" width="464" alt="tit">
+            <img src="static/banner/new-title2.png" height="210" width="464" alt="tit">
           </div>
-          <p class="xunlei"><img src="../../static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
+          <p class="xunlei"><img src="static/banner/button-down-nor.png" height="60" width="180" alt=""></p>
           <p class="other"><a href="#">百度网盘下载</a>|<a href="#">本地下载</a><a href="#" class="teach">.查看软件教程</a></p>
         </div>
         <div class="img">
-          <img src="../../static/banner/ban_03.png" height="450" width="726" alt="banner">
+          <img src="static/banner/ban_03.png" height="450" width="726" alt="banner">
         </div>
       </li>
     </ul>

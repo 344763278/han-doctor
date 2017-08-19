@@ -4,35 +4,35 @@
     <h5>我们精选每一款软件，确保安全可靠，让您放心下载</h5>
     <ul class="clear">
       <li>
-        <img src="../../static/product/2-1.png" height="84" width="84" alt="product">
+        <img src="static/product/2-1.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-2.png" height="84" width="84" alt="product">
+        <img src="static/product/2-2.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-3.png" height="84" width="84" alt="product">
+        <img src="static/product/2-3.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-4.png" height="84" width="84" alt="product">
+        <img src="static/product/2-4.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-5.png" height="84" width="84" alt="product">
+        <img src="static/product/2-5.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-6.png" height="84" width="84" alt="product">
+        <img src="static/product/2-6.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-7.png" height="84" width="84" alt="product">
+        <img src="static/product/2-7.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
       <li>
-        <img src="../../static/product/2-8.png" height="84" width="84" alt="product">
+        <img src="static/product/2-8.png" height="84" width="84" alt="product">
         <p>Windows XP</p>
       </li>
     </ul>
