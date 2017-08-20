@@ -13,7 +13,7 @@
         <div class="img">
           <img src="static/banner/ban_01.png" height="450" width="726" alt="banner">
         </div>
-      </li>
+      </li> 
       <li class="li">
         <div class="download">
           <div class="down-img">

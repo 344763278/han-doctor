@@ -1,7 +1,7 @@
 <template>
   <div id="app"> 
     <Vnav></Vnav> 
-    <banner></banner> 
+    <banner></banner>  
     <micro></micro>
     <product></product>
     <chooseUs></chooseUs>
@@ -23,7 +23,7 @@ import functions from './components/function'
 import various   from './components/various'
 import download  from './components/download' 
 import test      from './components/test'
-import Vfooter   from './components/footer' 
+import Vfooter   from './components/footer'  
 
 
 export default { 
@@ -42,8 +42,6 @@ export default {
 }
 </script>
 
-<style>
-/*测试过,只有在这里引入才不会报错，在main.js就不行*/
-/*而且这里不能加lang="less"*/
-@import './assets/css/test.less'
+<style rel="stylesheet/less" lang="less">
+@import './assets/css/test.less';
 </style>

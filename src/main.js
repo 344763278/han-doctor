@@ -8,7 +8,7 @@ import './assets/css/font-awesome.css'
 
 // swiper引入出现问题
 // import './assets/swiper/swiper.css' 
-// import swiperJs from './assets/swiper/swiper.js'
+// import swiperJs from './assets/swiper/swiper.js' 
 
 Vue.config.productionTip = false
 

@@ -25,8 +25,10 @@ module.exports = {
       'vue$'       : 'vue/dist/vue.esm.js',
       '@'          : resolve('src'),
       'assets'     : __dirname + '/src/assets',
+      'src'        : __dirname + '/src',
       'static'     : __dirname + '/src/static',
-      'components' : __dirname + '/src/components'
+      'components' : __dirname + '/src/components',
+      'jquery'     : 'jquery'
     }
   },
   plugins: [
@@ -38,6 +40,9 @@ module.exports = {
       "window.jQuery": "jquery"
     })
   ],
+  externals : {
+  	'swiper' : 'Swiper'
+  },
   module: {
     rules: [
       {
@@ -49,10 +54,6 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
-      },
-      {
-        test: /\.less$/,
-        loader: 'style-loader!css-loader!less-loader'
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

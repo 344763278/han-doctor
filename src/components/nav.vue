@@ -28,13 +28,14 @@ export default {
 }
 </script>
  
-<style scoped>
+<style scoped lang="less">
+@import '../assets/css/test.less';
   .wrap{
-    background-color: #274753;
+    background-color: #274753;  
   }
   .nav{
     height: 80px;
-    overflow: hidden;
+    overflow: hidden; 
   }
   .log{
     width: 226px;
@@ -58,7 +59,7 @@ export default {
     height: 80px;
     text-align: center;
     line-height: 80px;
-    font-size: 18px;
+    font-size: 18px; 
   }
   .list a{
     display: inline-block;
