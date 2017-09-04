@@ -26,9 +26,9 @@ export default {
 <style scoped lang="less">
 @import '../assets/css/test.less';
   .wrap{
-    .border-1px(yellow);
-    .bg-image(function,con1);
-    background-position: 50px 0;
+    .border-1px(yellow); 
+    .bg-image('/function/con1'); 
+    background-position: 800px 0;
     background-repeat: no-repeat;
     padding: 50px 0;  
     p{
