@@ -33,18 +33,20 @@
 
 // 字符组拼接不是一般的恶心
 // 首先，位置是基于mixin的位置，其次在调用的时候，貌似还不能出现/来拼接，
-// 所以用了location变量来识别
-/* .bg-image(@location, @url){
-  background-image: url('../../../static/@{location}/@{url}@2x.png');
-  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
-    background-image: url('../../../static/@{location}/@{url}@3x.png');
-  }
-} */
-.bg-image(@url){
+ 
+ 
+/* .bg-image(@url){
   background-image: url('../../../static/@{url}@2x.png');
   @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
     background-image: url('../../../static/@{url}@3x.png');
   }
-}
+} */
 
+// 以下可以实现现对路径
+.bg-image(@url){
+  background-image:~"url(@{url}@2x.png)";
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
+    background-image:~"url(@{url}@3x.png)";
+  }
+} 
 

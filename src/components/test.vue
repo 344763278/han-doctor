@@ -27,7 +27,7 @@ export default {
 @import '../assets/css/test.less';
   .wrap{
     .border-1px(yellow); 
-    .bg-image('/function/con1'); 
+    .bg-image('con1'); 
     background-position: 800px 0;
     background-repeat: no-repeat;
     padding: 50px 0;  
